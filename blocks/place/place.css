@@ -1,0 +1,36 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: auto 460px;
+    grid-gap: 48px 40px;
+    margin-bottom: 80px;
+}
+
+.place:first-of-type {
+    margin-top: 92px;
+}
+
+.place:nth-of-type(4) {
+    margin-bottom: 154px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto 340px;
+    grid-gap: 48px 24px;
+    margin-bottom: 80px;
+}
+    
+.place:nth-of-type(4) {
+    margin-bottom: 310px;
+}
+
+    .place:first-of-type {
+        margin-top: 88px;
+    }
+}

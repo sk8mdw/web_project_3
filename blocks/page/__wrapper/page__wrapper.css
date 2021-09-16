@@ -1,0 +1,13 @@
+.page__wrapper {
+    max-width: 1280px;
+    min-width: 320px;
+    margin: auto;
+    width: calc(100%-96px);
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 768px) {
+    .page__wrapper {
+        max-width: 768px;
+    }
+}
