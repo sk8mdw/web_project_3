@@ -12,3 +12,9 @@
         margin: 0 24px 32px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .intro__quote-author {
+        margin: 0 0 32px;
+    }
+}

@@ -9,6 +9,13 @@
 
 @media screen and (max-width: 768px) {
     .intro {
-    margin-left: 24px;
+        margin-left: 24px;
+    }
 }
+
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 320px;
+        margin: 0 16px;
+    }
 }
