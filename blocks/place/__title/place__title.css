@@ -1,9 +1,11 @@
 .place__title {
     color: white;
     font-size: 72px;
+    font-style: black;
     line-height: 1.06;
     margin: 0;
     max-width: 460px;
+/*    grid-area: title;*/
 }
 
 @media screen and (max-width: 768px) {
