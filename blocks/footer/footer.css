@@ -1,8 +1,13 @@
 .footer {
     display: flex;
     justify-content: center;
-    max-height: 16px;
     margin: 92px 0 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px 0 24px;
+    }
 }
 
 @media screen and (max-width: 320px) {

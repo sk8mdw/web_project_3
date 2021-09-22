@@ -1,13 +1,14 @@
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: calc(100% - 1009px);
-    min-height: 72px;
-    margin: 40px auto 0;
+    width: 272px;
+    margin: 34px auto 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .header {
-        width: 100%;
+        width: 200px;
+        margin: 20px auto 0;
     }
 }
