@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 768px) {
     .intro__quote-author {
-        margin: 0 0 32px;
         width: 100%;
         align-self: flex-end;
     }
@@ -18,8 +17,6 @@
 
 @media screen and (max-width: 320px) {
     .intro__quote-author {
-        width: calc(100% - 32px);
-        margin: 0 0 32px;
         align-self: flex-end;
     }
 }

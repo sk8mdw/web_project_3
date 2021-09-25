@@ -3,8 +3,9 @@
     width: 320px;
     height: 66px;
     text-align: center;
+    align-items: center;
     font-size: 18px;
-    line-height: 1.5px;
+    line-height: 1.2;
     align-self: center;
     margin-bottom: 32px;
     z-index: 1;
@@ -13,5 +14,7 @@
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         margin-bottom: 16px;
+        font-size: 14px;
+        line-height: 1.14;
     }
 }

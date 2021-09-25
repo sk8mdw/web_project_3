@@ -10,6 +10,25 @@
     margin: 0 0 32px;
 }
 
+@media screen and (max-width: 768px) {
+    .cover__title {
+        width: 656px;
+        margin: 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .cover__title {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        width: 100vw;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__title {
         width: 288px;

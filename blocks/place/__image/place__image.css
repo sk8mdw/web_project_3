@@ -4,24 +4,10 @@
     margin: 0;
 }
 
-@media screen and (max-width: 900px) {
-.place__image {
-
-}
-}
-
-@media screen and (max-width: 768px) {
-    .place__image {
-
-    }
-}
-
 @media screen and (max-width: 320px) {
     .place__image {
         display: flex;
         justify-self: center;
-        width: calc(100% + 32px);
-        object-fit: cover;
-        
+        min-width: calc(100% + 32px);
     }
 }

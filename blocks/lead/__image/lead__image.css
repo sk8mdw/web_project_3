@@ -12,14 +12,11 @@
         align-self: center;
         min-width: calc(100% + 48px);
         min-height: 450px;
-        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__image {
-        display: flex;
-        align-self: center;
         min-height: 187px;
         min-width: calc(100% + 32px);
     }
