@@ -6,8 +6,9 @@
     margin: 8px 0 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
-    .place__url-heading {
-        width: 288px;
+@media screen and (max-width: 320px) {
+    .place__link {
+        width: 90%;
+        margin:  8px auto 0;;
     }
 }

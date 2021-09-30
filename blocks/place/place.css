@@ -1,32 +1,35 @@
 .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "title artist" "image text" "button text" ". text";
-    grid-gap: 48px 40px;
-    margin: 32px auto 0 0;
+    width: 100%;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas: "title artist" "image text" "button text";
+    column-gap: 40px;
+    row-gap: 48px;
+    margin: 0 auto 80px;
+    border: 1px solid yellow;
 }
 
-.place:first-of-type {
-    margin-top: 92px;
+.place:nth-child(4) {
+    grid-template-areas: "title artist" "image text" "button text" ". text";
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        width: calc(100% - 48px);
-        margin-top: 72px;
-    }
-    .place:first-of-type {
-        margin-top: 88px;
+        grid-template-columns: 340px 1fr;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 320px) {
     .place {
-        width: calc(100% - 32px);
-        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 0 0 48px;
+        grid-template-columns: 100%;
         grid-template-areas: "title" "artist" "image" "text" "button";
         row-gap: 25px;
-        margin-bottom: 48px;
     }
     .place:first-of-type {
         margin-top: 64px;

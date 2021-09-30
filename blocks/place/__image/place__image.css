@@ -1,6 +1,8 @@
 .place__image {
-    width: 100%;
+    /* display: flex; */
+    /* object-fit: contain; */
     grid-area: image;
+    width: 100%;
     margin: 0;
 }
 
@@ -8,6 +10,7 @@
     .place__image {
         display: flex;
         justify-self: center;
-        min-width: calc(100% + 32px);
+        /* min-width: calc(100% + 32px); */
+        object-fit: cover;
     }
 }
