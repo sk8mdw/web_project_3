@@ -5,4 +5,4 @@ This project takes it's design details from Figma, and showcases several locatio
 ### Technologies Used
 This project is written in HTML amd CSS.  The CSS includes flexbox, grid, and grid template areas layouts.
 
-## [**Link to project**](https://sk8mdw.github.io/web_project_3/)
+## [**Link to website**](https://sk8mdw.github.io/web_project_3/)
