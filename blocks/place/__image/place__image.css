@@ -1,6 +1,7 @@
 .place__image {
-    /* display: flex; */
-    /* object-fit: contain; */
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
     grid-area: image;
     width: 100%;
     margin: 0;
