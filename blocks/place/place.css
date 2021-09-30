@@ -5,7 +5,7 @@
     grid-template-areas: "title artist" "image text" "button text";
     column-gap: 40px;
     row-gap: 48px;
-    margin: 0 auto 80px;
+    margin-top: 80px;
     border: 1px solid yellow;
 }
 
@@ -17,16 +17,24 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 1120px) {
+    .place {
+        grid-template-columns: 420px 1fr;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
+        column-gap: 28px;
+        row-gap: 25px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place {
         width: 100%;
-        margin: 0 0 48px;
+        /* margin: 0 0 48px; */
         grid-template-columns: 100%;
         grid-template-areas: "title" "artist" "image" "text" "button";
         row-gap: 25px;
