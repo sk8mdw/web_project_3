@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place__url-heading {
         margin: 8px 16px 0;
     }

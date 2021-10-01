@@ -4,8 +4,7 @@
     width: 100%;
     padding-bottom: 100%;
     grid-area: image;
-    /* object-fit: cover; */
-    /* margin: 0; */
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
