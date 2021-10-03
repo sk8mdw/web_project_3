@@ -4,10 +4,24 @@
     border: 1px solid green;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 972px) {
     .places {
         width: calc(100% - 48px);
         margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    .places {
+        width: calc(100% - 18px);
+        margin: 0 9px;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .places {
+        width: calc(100% - 12px);
+        margin: 0 6px;
     }
 }
 
