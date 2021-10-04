@@ -6,24 +6,3 @@
     grid-area: image;
     margin: 0;
 }
-
-@media screen and (max-width: 768px) {
-    .place__image {
-        /* width: 340px; */
-        /* padding-bottom: 50%; */
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__image {
-        /* width: 320px; */
-    }
-}
-
-/* @media screen and (max-width: 320px) {
-    .place__image {
-        display: flex;
-        justify-self: center;
-        object-fit: cover;
-    }
-} */
