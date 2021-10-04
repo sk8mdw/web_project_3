@@ -23,11 +23,6 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_kyiv/place__image_kyiv.css);
-@import url(../blocks/place/__image/_cricieth/place__image_cricieth.css);
-@import url(../blocks/place/__image/_berea/place__image_berea.css);
-@import url(../blocks/place/__image/_muramvya/place__image_muramvya.css);
-@import url(../blocks/place/__image/_fayetteville/place__image_fayetteville.css);
 @import url(../blocks/place/__button/place__button.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__text/cover__text.css);

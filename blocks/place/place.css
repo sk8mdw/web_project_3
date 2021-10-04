@@ -2,8 +2,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 460px auto;
-    grid-template-areas: "title artist" "image text" "button text";
+    grid-template-areas: "title artist" "image text" "button text" ". text";
     column-gap: 40px;
     row-gap: 48px;
     margin-top: 80px;
@@ -17,10 +16,16 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 1055px) {
     .place {
         grid-template-columns: 360px 1fr;
-        grid-template-rows: auto 360px auto;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .place {
+        grid-template-columns: 350px 1fr;
         column-gap: 28px;
     }
 }
@@ -28,7 +33,6 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
-        grid-template-rows: auto 340px auto;
         margin-top: 72px;
     }
     .place:first-of-type {
@@ -40,7 +44,6 @@
     .place {
         grid-template-areas: "title" "artist" "image" "text" "button";
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
         row-gap: 30px;
     }
 }
@@ -48,7 +51,6 @@
 @media screen and (max-width: 425px) {
     .place {
         grid-template-columns: 100%;
-        grid-template-areas: "title" "artist" "image" "text" "button";
         margin-top: 48px;
     }
 }
