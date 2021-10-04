@@ -25,9 +25,3 @@
         margin: 90px auto 64px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .photo-grid {
-        width: calc(100% - 32px);
-    }
-}
